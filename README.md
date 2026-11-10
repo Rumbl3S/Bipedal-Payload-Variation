@@ -6,11 +6,11 @@ This project trains continuous-control agents on the MuJoCo **Walker2d-v5** bipe
 
 | Stage | Status |
 |---|---|
-| Environment and payload wrapper | ✅ Done |
-| Scripted (no-RL) baseline | ✅ Done |
-| DDPG agent | ✅ Trained (~850k steps) |
-| TD3 agent | ✅ Trained (600k steps) |
-| Payload-variation experiments | 🔜 Next |
+| Environment and payload wrapper | Complete |
+| Scripted (no-RL) baseline | Complete |
+| DDPG agent | Trained, ~850k steps |
+| TD3 agent | Trained, 600k steps |
+| Payload-variation experiments | In progress |
 
 ---
 
