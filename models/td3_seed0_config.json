@@ -1,0 +1,25 @@
+{
+  "algo": "td3",
+  "seed": 0,
+  "steps": 600000,
+  "warmup": 25000,
+  "dr": false,
+  "mass_low": 1.0,
+  "mass_high": 2.0,
+  "eval_masses": [
+    1.0
+  ],
+  "eval_every": 10000,
+  "eval_episodes": 5,
+  "root": ".",
+  "tag": "td3_seed0",
+  "best_eval_return": 4917.644980625836,
+  "best_step": 540000,
+  "minutes": 132.6081921140353,
+  "gamma": 0.99,
+  "tau": 0.005,
+  "batch_size": 256,
+  "learning_rate": 0.0003,
+  "optimizer": "Adam",
+  "buffer_capacity": 1000000
+}

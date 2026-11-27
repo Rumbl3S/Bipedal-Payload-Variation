@@ -1,0 +1,20 @@
+Launching 18 runs with up to 18 in parallel using /Library/Frameworks/Python.framework/Versions/3.11/bin/python3
+done    ddpg_dr_seed2
+done    ddpg_seed0
+done    ddpg_dr_seed1
+done    ddpg_seed1
+done    ddpg_dr_seed0
+done    ddpg_seed2
+done    td3_dr_seed1
+done    td3_seed1
+done    td3_seed0
+done    td3_dr_seed2
+done    td3_dr_seed0
+done    td3_seed2
+done    sac_seed0
+done    sac_seed1
+done    sac_dr_seed0
+done    sac_seed2
+done    sac_dr_seed2
+done    sac_dr_seed1
+All runs finished. Logs are in logs/, weights in models/.

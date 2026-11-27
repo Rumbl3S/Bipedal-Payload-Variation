@@ -1,0 +1,25 @@
+{
+  "algo": "sac",
+  "seed": 0,
+  "steps": 600000,
+  "warmup": 25000,
+  "dr": false,
+  "mass_low": 1.0,
+  "mass_high": 2.0,
+  "eval_masses": [
+    1.0
+  ],
+  "eval_every": 10000,
+  "eval_episodes": 5,
+  "root": ".",
+  "tag": "sac_seed0",
+  "best_eval_return": 3952.857240038315,
+  "best_step": 530000,
+  "minutes": 157.87057627836865,
+  "gamma": 0.99,
+  "tau": 0.005,
+  "batch_size": 256,
+  "learning_rate": 0.0003,
+  "optimizer": "Adam",
+  "buffer_capacity": 1000000
+}

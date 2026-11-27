@@ -1,0 +1,27 @@
+{
+  "algo": "ddpg",
+  "seed": 2,
+  "steps": 600000,
+  "warmup": 25000,
+  "dr": true,
+  "mass_low": 1.0,
+  "mass_high": 2.0,
+  "eval_masses": [
+    1.0,
+    1.5,
+    2.0
+  ],
+  "eval_every": 10000,
+  "eval_episodes": 5,
+  "root": ".",
+  "tag": "ddpg_dr_seed2",
+  "best_eval_return": 1612.7755864517558,
+  "best_step": 580000,
+  "minutes": 121.36755234797796,
+  "gamma": 0.99,
+  "tau": 0.005,
+  "batch_size": 256,
+  "learning_rate": 0.0003,
+  "optimizer": "Adam",
+  "buffer_capacity": 1000000
+}
